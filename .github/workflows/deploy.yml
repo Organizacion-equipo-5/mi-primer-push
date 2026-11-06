@@ -20,7 +20,7 @@ jobs:
           echo "Evento: $GITHUB_EVENT_NAME"
           echo "Rama: $GITHUB_REF_NAME"
       
-      - name: Comprobar que existe index.html
+      - name: Comprobar la existencia de index.html
         run: |
           test -f index.html
           echo "OK: index.html existe"
